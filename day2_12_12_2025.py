@@ -37,11 +37,21 @@
 # print(divisionable_numbers)
 
 
-# Task: Given a list of words, create a new list that includes only
-# the words that are longer than 3 letters and do NOT start with the letter 'P'.
-# The List: words = ["Apple", "Pie", "Pear", "Banana", "Kiwi", "Plum", "Orange"]
-# Goal: The result should be ['Apple', 'Banana', 'Kiwi', 'Orange']
-# (Note: "Pie", "Pear", and "Plum" are removed because they start with 'P').
-words = ["Apple", "Pie", "Pear", "Banana", "Kiwi", "Plum", "Orange"]
-filtered_words = [x for x in words if x.startswith('p'.title()) and len(x) > 3]
-print(filtered_words)
+# # Task: Given a list of words, create a new list that includes only
+# # the words that are longer than 3 letters and do NOT start with the letter 'P'.
+# # The List: words = ["Apple", "Pie", "Pear", "Banana", "Kiwi", "Plum", "Orange"]
+# # Goal: The result should be ['Apple', 'Banana', 'Kiwi', 'Orange']
+# # (Note: "Pie", "Pear", and "Plum" are removed because they start with 'P').
+# words = ["Apple", "Pie", "Pear", "Banana", "Kiwi", "Plum", "Orange"]
+# filtered_words = [x for x in words if x.startswith('p'.title()) and len(x) > 3]
+# print(filtered_words)
+
+
+# Task: Take a string and create a list of its characters. If the character is a vowel (a, e, i, o, u),
+# make it UPPERCASE. If it is a consonant, make it lowercase.
+# Input String: text = "Python is Awesome"
+# Goal: ['p', 'y', 't', 'h', 'O', 'n', ' ', 'I', 's', ' ', 'A', 'w', 'E', 's', 'O', 'm', 'E'] (ignoring spaces).
+text = 'The Republic of Uzbekistan'
+vowels = 'aeiouAEIOU'
+solution = [x.upper() if x in vowels else x.lower() for x in text]
+print(solution)
