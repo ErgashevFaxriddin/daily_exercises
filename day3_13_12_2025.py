@@ -11,4 +11,36 @@ count = [len(word) for word in words]
 
 combined = [(words[i], count[i]) for i in range(len(words))]
 
-print(combined)
+# print(combined)
+
+
+# list1 = [1, 2, 3]
+# list = ['a', 'b']
+# list1.extend(list)
+# print(list1)
+
+x = ('apple', 'banana', 'kiwi')
+
+# y = list(x)
+# y.append('cherry')
+# y.remove('kiwi')
+# x = tuple(y)
+
+x = tuple([y for y in x if y != 'kiwi'] + ['cherry'])
+
+# print(x)
+#
+# #
+# thistuple = ("apple", "banana", "cherry")
+# for i in range(len(thistuple)):
+# #   # print(thistuple[i])
+#
+# thistuple = ("apple", "banana", "cherry")
+# for x in thistuple:
+#     print(x)
+
+
+fruits = ("apple", "banana", "cherry")
+mytuple = fruits * 2
+
+print(mytuple)
