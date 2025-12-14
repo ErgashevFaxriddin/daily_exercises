@@ -73,3 +73,30 @@ Access the element in the second row, first column.
 Given numbers = [2, 4, 6, 8]
 
 Print each number multiplied by 3 using a for loop.
+
+___________
+13/12/2025 |
+-----------
+🟡 Medium
+
+Unpack a tuple of 3 numbers into separate variables.
+
+Concatenate two tuples: (1,2,3) and (4,5,6).
+
+Repeat a tuple 3 times.
+
+Count how many times a value appears in a tuple.
+
+Find the index of a value in a tuple.
+
+🔵 Intermediate / Challenging
+
+Convert a tuple to a list, add an item, and convert back to a tuple.
+
+Slice a tuple to get the last 3 items.
+
+Unpack a tuple into variables using * for the remaining items.
+
+Create a tuple of numbers from 1 to 10 and print only the even numbers.
+
+Given a tuple of tuples: ((1,2), (3,4), (5,6)), create a single tuple (1,2,3,4,5,6).
