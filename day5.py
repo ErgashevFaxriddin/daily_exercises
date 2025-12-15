@@ -49,8 +49,34 @@
 # myset = set.union(set1, set2, set3)
 # print(myset)
 
-set1 = {'one', 'two', 'three'}
-set2 = {1, 2, 3}
-set3 = {'Anna', 'Selena', 'Andry'}
-myset = set1 | set2 | set3
-print(myset)
+# set1 = {'one', 'two', 'three'}
+# set2 = {1, 2, 3}
+# set3 = {'Anna', 'Selena', 'Andry'}
+# myset = set1 | set2 | set3
+# print(myset)
+
+# x = ('hi', 'how', 'are', 'you', '?')
+# y = {"I'm", 'ok', '!'}
+# z = set(x).union(y)
+# print(z)
+
+# set1 = {'hi', 'hello', 'bye', 'no'}
+# set2 = {'hi', 'bye', 'good'}
+# set3 = set1.intersection(set2)
+# print(set3)
+
+
+# set1 = {'hi', 'hello', 'bye', 'no'}
+# set2 = {'hi', 'bye', 'good'}
+# set3 = set1 & set2
+# print(set3)
+
+# set1 = {'hi', 'hello', 'bye', 'no'}
+# set2 = {'hi', 'bye', 'good'}
+# set3 = set1.difference(set2)
+# print(set3)
+
+set1 = {'hi', 'hello', 'bye', 'no'}
+set2 = {'hi', 'bye', 'good'}
+set3 = set1 - set2
+print(set3)
