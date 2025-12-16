@@ -11,10 +11,30 @@
 # car.pop('year')
 # print(car.items())
 
-thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# thisdict.clear()
+# print(thisdict)
+
+# students = {
+#     'george': 21,
+#     'Anna': 23,
+#     'lily': 10,
+#     'asad': 33,
+#     'begali': 42
+# }
+# for key, value in students.items():
+#     print(f"Student {key.title()} {value} years old!")
+
+students = {
+    'george': 21,
+    'Anna': 23,
+    'lily': 10,
+    'asad': 33,
+    'begali': 42
 }
-thisdict.clear()
-print(thisdict)
+a = [x if x > 18 else "Too young" for x in students.values()]
+print(a)
