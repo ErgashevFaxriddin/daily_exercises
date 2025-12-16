@@ -64,5 +64,3 @@ text = 'The Republic of Uzbekistan'
 vowels = 'aeiouAEIOU'
 solution = [x.upper() if x in vowels else x.lower() for x in text]
 # print(solution)
-
-

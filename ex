@@ -1,102 +1,107 @@
-1. Create and Print a List
+🟢 EASY LEVEL
+1️⃣ Dictionary reading
 
-Create a list of 5 of your favorite fruits.
+You have a dictionary with students and their ages.
+👉 Loop through it and:
 
-Print the entire list.
+Read each student’s name
 
-Print the first and last fruit in the list.
+Read each age
 
-2. Add and Remove Elements
+Say who is older than 18
 
-Start with this list: numbers = [1, 2, 3, 4]
+2️⃣ Keys only
 
-Add 5 to the end of the list.
+You have a dictionary of countries and their capitals.
+👉 Use a loop to:
 
-Remove the number 2.
+Look only at the country names
 
-Print the updated list.
+Print each country on a new line
 
-3. Accessing Elements
+3️⃣ Values only
 
-Given colors = ['red', 'green', 'blue', 'yellow']
+You have a dictionary with product names and prices.
+👉 Loop through it and:
 
-Print the last color using negative indexing.
+Look only at prices
 
-Print the second and third colors using slicing.
+Find which prices are higher than 100
 
-4. List Operations
+🟡 MEDIUM LEVEL
+4️⃣ Key + Value together
 
-Create two lists: a = [1,2,3] and b = [4,5,6]
+You have a dictionary of employees and their salaries.
+👉 Loop through it and:
 
-Combine them into a new list c.
+Show each employee name with their salary
 
-Multiply list a by 2 and print it.
+Say if the salary is “High” or “Low” (you decide the limit)
 
-5. Sorting a List
+5️⃣ Counting with a loop
 
-Given numbers = [4, 1, 7, 3, 8]
+You have a dictionary of students and their exam results (pass / fail).
+👉 Loop through it and:
 
-Sort the list in ascending order.
+Count how many students passed
 
-Sort the list in descending order.
+Count how many failed
 
-6. List Comprehension
+6️⃣ Update values logically
 
-Create a list of squares of numbers from 1 to 10 using list comprehension.
+You have a dictionary of items and quantities in a store.
+👉 Loop through it and:
 
-7. Find Min, Max, and Sum
+Check which items have low quantity
 
-Given numbers = [10, 5, 8, 12, 3]
+Decide which items need restocking
 
-Find the smallest number.
+🔴 HARD LEVEL
+7️⃣ Nested thinking
 
-Find the largest number.
+You have a dictionary where:
 
-Find the sum of all numbers.
+Keys are student names
 
-8. Check Membership
+Values are another dictionary with math, english, science scores
 
-Given fruits = ['apple', 'banana', 'mango']
+👉 Loop through it and:
 
-Check if 'orange' is in the list.
+Check each student’s subjects
 
-Check if 'banana' is in the list.
+Decide if the student passed all subjects
 
-9. Nested Lists
+8️⃣ Frequency counting
 
-Create a nested list matrix with 2 rows and 3 columns.
+You have a dictionary where:
 
-Access the element in the second row, first column.
+Keys are words
 
-10. Iterate Over a List
+Values are how many times they appear
 
-Given numbers = [2, 4, 6, 8]
+👉 Loop through it and:
 
-Print each number multiplied by 3 using a for loop.
+Find the most frequent word
 
-___________
-13/12/2025 |
------------
-🟡 Medium
+Find words that appear only once
 
-Unpack a tuple of 3 numbers into separate variables.
+9️⃣ Dictionary transformation
 
-Concatenate two tuples: (1,2,3) and (4,5,6).
+You have a dictionary of people and their cities.
+👉 Loop through it and:
 
-Repeat a tuple 3 times.
+Create a new idea where cities are grouped by people
 
-Count how many times a value appears in a tuple.
+Example thinking: one city → many people
 
-Find the index of a value in a tuple.
+🧠 BONUS THINKING TASK
 
-🔵 Intermediate / Challenging
+Explain (in words):
 
-Convert a tuple to a list, add an item, and convert back to a tuple.
+When looping over a dictionary, what is the difference between:
 
-Slice a tuple to get the last 3 items.
+looping over keys
 
-Unpack a tuple into variables using * for the remaining items.
+looping over values
 
-Create a tuple of numbers from 1 to 10 and print only the even numbers.
-
-Given a tuple of tuples: ((1,2), (3,4), (5,6)), create a single tuple (1,2,3,4,5,6).
+looping over both
