@@ -39,18 +39,12 @@
 # a = [x if x > 18 else "Too young" for x in students.values()]
 # print(a)
 
-# Check if a key exists
-#
-# Check if “Sara” exists in the dictionary.
-#
-# Print a message based on the result.
-students = {
-    "Ali": 18,
-    "Anna": 20,
-    "John": 19,
-    'sarah':12
-}
+# students = {
+#     "Ali": 18,
+#     "Anna": 20,
+#     "John": 19,
+#     'sarah':12
+# }
 
-result = [name for name in students if name.lower() == "sarah"]
-
-print(result[0] if result else "there is no sarah")
+# result = [name for name in students if name.lower() == "sarah"]
+# print(result[0] if result else "there is no sarah")
