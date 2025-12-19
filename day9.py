@@ -1,0 +1,21 @@
+# functions
+# def my_function(*args):
+#   print("Type:", type(args))
+#   print("First argument:", args[0])
+#   print("Second argument:", args[1])
+#   print("All arguments:", args)
+#
+# my_function("Emil", "Tobias", "Linus")
+
+# def myfunction(*args):
+#     print('model: ', args[0])
+#     print('year: ', args[1])
+#     print('color: ', args[2])
+#     print('km: ', args[3])
+# myfunction('audi', 2025, 'yellow', 00)
+
+def my_function(greeting, *names):
+  for name in names:
+    print(greeting, name)
+
+my_function("Hello", "Emil", "Tobias", "Linus")
