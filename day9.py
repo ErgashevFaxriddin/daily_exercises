@@ -14,8 +14,18 @@
 #     print('km: ', args[3])
 # myfunction('audi', 2025, 'yellow', 00)
 
-def my_function(greeting, *names):
-  for name in names:
-    print(greeting, name)
+# def my_function(greeting, *names):
+#   for name in names:
+#     print(greeting, name)
+#
+# my_function("Hello", "Emil", "Tobias", "Linus")
 
-my_function("Hello", "Emil", "Tobias", "Linus")
+def my_function(*numbers):
+  total = 0
+  for num in numbers:
+    total += num
+  return total
+
+print(my_function(1, 2, 3))
+print(my_function(10, 20, 30, 40))
+print(my_function(5))
