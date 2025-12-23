@@ -46,6 +46,8 @@
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Python.day10.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.day11.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.day12.executor&quot;: &quot;Debug&quot;,
     &quot;Python.day1_11_12_25.executor&quot;: &quot;Debug&quot;,
     &quot;Python.day3_13_12_2025.executor&quot;: &quot;Debug&quot;,
     &quot;Python.day5.executor&quot;: &quot;Run&quot;,
@@ -65,7 +67,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Python.day10">
+  <component name="RunManager" selected="Python.day12">
     <configuration name="day10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Daily_Ex" />
       <option name="ENV_FILES" value="" />
@@ -88,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="day11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Daily_Ex" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,7 +103,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day11.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="day12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Daily_Ex" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,7 +125,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day12.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.day12" />
+        <item itemvalue="Python.day11" />
         <item itemvalue="Python.day10" />
         <item itemvalue="Python.day9" />
         <item itemvalue="Python.day8" />
-        <item itemvalue="Python.day6" />
-        <item itemvalue="Python.day5" />
       </list>
     </recent_temporary>
   </component>
