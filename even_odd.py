@@ -1,6 +1,6 @@
-def juft_toq():
+def even_odd_funtion():
     num = int(input('ENTER A NUMBER: '))
     if num % 2 == 0:
-        return 'Juft'
+        print('EVEN')
     else:
-        return 'Toq'
+        print('ODD')
