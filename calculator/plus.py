@@ -1,17 +1,18 @@
-from curses.ascii import isdigit
-
-
-def add(num1, num2):
+def add():
     while True:
-        num1 = int(input('FIRST NUMBER: '))
-        num2 = int(input('SECOND NUMBER: '))
-        if num1 or num2 is not isdigit(num1):
-            print('THIS IS NOT A NUMBER')
+        num1 = input("FIRST NUMBER: ")
+        num2 = input("SECOND NUMBER: ")
+
+        # Check if input is whole number
+        if not num1.isdigit() or not num2.isdigit():
+            print("THIS IS NOT A WHOLE NUMBER. TRY AGAIN.")
             continue
 
-        elif float(num1) or float(num2):
-            print('PRINT AN EVEN NUMBER')
-            continue
+        # Convert to integers
+        num1 = int(num1)
+        num2 = int(num2)
 
-        else:
-            continue
+        # Add numbers
+        result = num1 + num2
+        print("RESULT:", result)
+        break  # exit loop after successful addition
