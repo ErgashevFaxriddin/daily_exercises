@@ -1,7 +1,6 @@
 sentence = "Python is easy to learn"
 
-# Solution
-words = sentence.split()  # splits by space
+words = sentence.split()
 count = len(words)
 
 print("Number of words:", count)
