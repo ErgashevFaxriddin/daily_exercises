@@ -9,15 +9,28 @@
 # p1 = Person("Ali")
 # p1.say_hello()
 
+#
+# class Student:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#
+#     def introduce(self):
+#         print("My name is", self.name, "and I am", self.age, "years old.")
+#
+#
+# s1 = Student("Sara", 20)
+# s1.introduce()
 
-class Student:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
 
-    def introduce(self):
-        print("My name is", self.name, "and I am", self.age, "years old.")
+class Car:
+    def __init__(self, brand, year):
+        self.brand = brand
+        self.year = year
+
+    def car_info(self):
+        print("This car is", self.brand, "made in", self.year)
 
 
-s1 = Student("Sara", 20)
-s1.introduce()
+c1 = Car("Toyota", 2020)
+c1.car_info()
